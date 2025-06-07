@@ -7,8 +7,15 @@ require('dotenv').config();
 
 const app = express();
 
+
+const corsOptions = {
+  origin: ['https://optern-backend-pmbv.onrender.com', 'http://localhost:8080'],
+  credentials: true, // if you're using cookies or HTTP authentication
+};
+
+
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
