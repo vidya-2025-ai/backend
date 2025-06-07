@@ -9,9 +9,10 @@ const app = express();
 
 
 const corsOptions = {
-  origin: ['https://vidya-frontend-two.vercel.app/', 'http://localhost:8080'],
-  credentials: true, // if you're using cookies or HTTP authentication
+  origin: 'https://vidya-frontend-two.vercel.app',
+  credentials: true, // required if you're using cookies or sessions
 };
+
 
 
 // Middleware
