@@ -9,7 +9,7 @@ const app = express();
 
 
 const corsOptions = {
-  origin: 'https://vidya-frontend-two.vercel.app',
+  origin: 'https://frontend-mu-ashen.vercel.app/',
   credentials: true, // required if you're using cookies or sessions
 };
 
