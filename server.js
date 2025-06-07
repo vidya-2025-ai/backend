@@ -9,7 +9,7 @@ const app = express();
 
 
 const corsOptions = {
-  origin: ['https://optern-backend-pmbv.onrender.com', 'http://localhost:8080'],
+  origin: ['https://vidya-frontend-two.vercel.app/', 'http://localhost:8080'],
   credentials: true, // if you're using cookies or HTTP authentication
 };
 
